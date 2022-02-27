@@ -1,0 +1,31 @@
+/* SOBRE */
+.title{
+  font-family: 'GothanBold';
+  font-size: 48px;
+}
+
+.subtitle{
+  font-family: 'GothanBook';
+  font-size: 26px;
+  line-height: 24px;
+}
+
+#sobre .container .subtitle{
+  color: #000000;
+}
+
+#sobre .sobre-md{
+  max-height: 500px;
+}
+.container .purple{
+  color: #5A1286 !important;
+}
+
+.container .button{
+  border-radius: 14px;
+  font-family: 'GothanBold';
+  background: #00DFBF;
+  width: 294px;
+  height: 48px;
+  font-size: 18px;
+}
