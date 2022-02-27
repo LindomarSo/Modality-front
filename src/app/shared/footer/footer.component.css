@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'GothanBook';
+  src: url('../../../assets/Gotham-Font/GothamBook.ttf') format('truetype');
+}
+
+footer{
+  background: #000000;
+  padding: 15px 0;
+}
+
+footer p{
+  font-family: 'GothanBook';
+  font-size: 26px;
+  line-height: 25px;
+}
+
+@media screen and (max-width: 768px){
+  footer{
+    padding: 15px 0;
+  }
+
+  footer p{
+    font-size: 15px;
+    line-height: 15px;
+  }
+}
+
+@media screen and (max-width: 576px){
+  footer{
+    padding: 15px 0;
+  }
+
+  footer p{
+    font-size: 14px;
+    line-height: 14px;
+  }
+}

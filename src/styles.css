@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+
+@font-face {
+  font-family: 'Gotham';
+  src: url("../src/assets/Gotham-Font/GothamBook.ttf") format('truetype')
+}
+
+body,
+html{
+  font-family: 'Gotham';
+}
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #DADADA;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #787878;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #DADADA;  /* creates padding around scroll thumb */
+}

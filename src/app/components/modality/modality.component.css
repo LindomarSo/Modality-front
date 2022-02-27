@@ -1,0 +1,410 @@
+@font-face {
+  font-family: 'GothanBold';
+  src: url("../../../assets/Gotham-Font/Gotham-Bold.otf") format('opentype');
+}
+
+@font-face {
+  font-family: 'GothanBook';
+  src: url("../../../assets/Gotham-Font/GothamBook.ttf") format('truetype');
+}
+
+.block{
+  margin-bottom: 100px;
+}
+
+#main{
+  background: linear-gradient(180deg, rgba(90, 18, 134, 0.85) 0%, #1B021A 100%);
+}
+
+.title{
+  font-family: 'GothanBold';
+  font-size: 48px;
+}
+
+.subtitle{
+  font-family: 'GothanBook';
+  font-size: 26px;
+  line-height: 24px;
+}
+
+#main .title, .subtitle{
+  color: #FFFFFF;
+}
+
+#main .woman{
+  max-height: 633px;
+}
+
+.container .button{
+  border-radius: 14px;
+  font-family: 'GothanBold';
+  background: #00DFBF;
+  width: 294px;
+  height: 48px;
+  font-size: 18px;
+}
+
+.container .purple{
+  color: #5A1286 !important;
+}
+
+/* SOBRE */
+
+#sobre .container .subtitle{
+  color: #000000;
+}
+
+#sobre .sobre-md{
+  max-height: 500px;
+}
+
+/* SERVICES */
+
+#service{
+  width: 100%;
+  height: 100%;
+}
+
+#service .retangle-wraper{
+  position: relative;
+  top: 30px;
+}
+
+#service .retangle{
+  background: #F0F0F0;
+  border-radius: 33px;
+  max-width: 806px;
+  max-height: 550px;
+  padding: 35px 100px 40px 70px;
+}
+
+#service .detail{
+  position: relative;
+  top: -25px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 349px;
+  height: 22px;
+  background: #5A1286;
+  border-radius: 5px;
+}
+
+#service .social-media{
+  font-size: 36px;
+  color: #5A1286;
+  font-family: 'GothanBold';
+}
+
+#service .subtitle-social{
+  font-size: 32px;
+}
+
+#service .d-flex{
+  line-height: 30px;
+}
+
+#service .button{
+  border-radius: 14px;
+  font-family: 'GothanBold';
+  background: #00DFBF;
+  width: 241.6px;
+  height: 45px;
+  font-size: 18px;
+}
+
+/* PROVA SOCIAL */
+
+#prova-social{
+  background: #5A1286;
+  padding: 100px 0 50px 0;
+}
+
+#prova-social .success-case{
+  padding: 50px 0;
+}
+
+/* PAÍSES */
+
+#paises{
+  background: #000000;
+  padding: 63px 0;
+}
+
+/* FEEDBACKS */
+
+#feedback{
+  padding: 100px 0;
+  background: #DEDEDE;
+}
+
+#feedback .depoimento{
+  font-size: 24px;
+  font-style: italic;
+  margin-top: 50px;
+}
+
+#feedback .title-name{
+  font-size: 24px;
+  line-height: 15px;
+}
+
+#feedback .contato{
+  padding: 90px 40px 90px 40px;
+  background: #5A1286;
+  margin-top: 50px;
+}
+
+#feedback .title-contato{
+  line-height: 46px;
+}
+
+#feedback .input-group-text {
+  background: #DEDEDE;
+  border-top-left-radius: 74px;
+  border-bottom-left-radius: 74px;
+  height: 60px;
+  border-right: transparent !important;
+  font-size: 24px;
+  font-family: 'GothanBold';
+  padding-left: 30px;
+}
+
+#feedback .form-control{
+  border-top-right-radius: 74px;
+  border-bottom-right-radius: 74px;
+  background: #DEDEDE;
+  border-left: transparent !important;
+  font-size: 24px;
+  font-family: 'GothanBold';
+  padding-right: 30px;
+}
+
+#feedback .form-select{
+  border-top-right-radius: 74px;
+  border-bottom-right-radius: 74px;
+  background: #DEDEDE;
+  border-left: transparent !important;
+  font-size: 24px;
+  font-family: 'GothanBold';
+}
+
+#feedback .button-submit{
+  width: 241.6px;
+  height: 45px;
+}
+
+i{
+  font-size: 40px !important;
+  z-index: 999 !important;
+  color: #5A1286 !important;
+  font-weight: bold;
+}
+
+#feedback span{
+  position: relative;
+}
+
+#feedback .title-phone{
+  font-size: 36px;
+}
+
+#feedback .social-media{
+  margin-top: 150px;
+}
+
+#feedback ul{
+  list-style: none;
+  margin: 30px 0 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: start;
+}
+
+#feedback ul li{
+  display: flex;
+  margin-right: 15px;
+}
+
+#feedback ul li a{
+  display: flex;
+  height: 40px;
+  width: 40px;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  transition: all ease-out 0.2s;
+  border-radius: 20px;
+}
+
+#feedback ul li a :hover{
+  box-sizing: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+#feedback ul li a img{
+  max-height: 35px;
+}
+
+#feedback .logo{
+  max-height: 195px;
+}
+
+/* Min Width */
+@media screen and (min-width: 992px){
+
+
+}
+
+/* MAX WIDTH */
+
+@media screen and (max-width: 768px){
+  .title{
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .subtitle{
+    font-size: 20px;
+    line-height: 18px;
+  }
+
+  #service .subtitle-social{
+    font-size: 16px;
+    line-height: 35px;
+  }
+
+  #service img{
+    height: 18px;
+  }
+
+  #service .retangle{
+    max-width: 806px;
+    max-height: 550px;
+    padding: 35px 30px 40px 30px;
+  }
+
+  #service .detail{
+    top: -27px;
+    width: 197px;
+    height: 13px;
+  }
+
+  #service .social-media{
+    font-size: 24px;
+  }
+
+  .container .button{
+    border-radius: 9px;
+    width: 205px;
+    height: 35px;
+    font-size: 14px;
+  }
+
+  #service .button{
+    border-radius: 9px;
+    width: 205px;
+    height: 35px;
+    font-size: 14px;
+  }
+
+  #prova-social{
+    padding: 40px 0 70px 0;
+  }
+
+  #prova-social .success-case{
+    padding: 50px 0;
+  }
+
+  #feedback{
+    padding: 50px 0;
+  }
+
+  #feedback .title-name{
+    font-size: 18px;
+    line-height: 15px;
+  }
+
+  #feedback .depoimento{
+    font-size: 18px;
+    line-height: 17px;
+    margin-top: 25px;
+    padding: 0 15px;
+  }
+
+  #feedback .title-contato{
+    line-height: 20px;
+  }
+
+  #feedback .form-control{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 30px;
+    font-size: 14px;
+    padding-right: 30px;
+  }
+
+  #feedback .input-group-text {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 30px;
+    font-size: 14px;
+    padding-left: 30px;
+  }
+
+  #feedback .form-select{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 30px;
+    font-size: 14px;
+  }
+
+  #feedback .social-media{
+    margin-top: 80px;
+  }
+
+  #feedback ul{
+    list-style: none;
+    margin: 15px 0 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  #feedback ul li{
+    margin-right: 0px;
+  }
+
+  #feedback ul li a img{
+    max-height: 22px;
+  }
+
+  #feedback .title-phone{
+    font-size: 24px;
+  }
+
+  #feedback .subtitle-phone{
+    font-size: 14px !important;
+  }
+}
+
+@media screen and (max-width: 576px){
+  .block{
+    margin-bottom: 50px;
+  }
+
+  #service .container{
+    padding: 0;
+  }
+
+  .subtitle{
+    font-size: 17px;
+    line-height: 17px;
+  }
+
+  #main .woman{
+    max-height: 273px;
+  }
+
+  #paises{
+    padding: 40px 0;
+  }
+}
