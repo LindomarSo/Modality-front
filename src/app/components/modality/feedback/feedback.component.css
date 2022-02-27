@@ -1,4 +1,19 @@
 /* FEEDBACKS */
+@font-face {
+  font-family: 'GothanBold';
+  src: url("../../../../assets/Gotham-Font/Gotham-Bold.otf") format('opentype');
+}
+
+@font-face {
+  font-family: 'GothanBook';
+  src: url("../../../../assets/Gotham-Font/GothamBook.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'monserrat';
+  src: url("../../../../assets/Gotham-Font/Montserrat/Montserrat-VariableFont_wght.ttf") format('truetype');
+}
+
 .title{
   font-family: 'GothanBold';
   font-size: 48px;
@@ -128,4 +143,90 @@ i{
 
 #feedback .logo{
   max-height: 195px;
+}
+
+#feedback .iniciar-contato{
+  line-height: 43,88px;
+  font-size: 36px;
+  font-family: 'monserrat';
+}
+
+.botao{
+  font-family: 'monserrat';
+  background: #18CD40;
+  border-radius: 14px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 768px){
+  #feedback .title{
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  #feedback .subtitle{
+    font-size: 20px;
+    line-height: 18px;
+  }
+
+  #service .subtitle-social{
+    font-size: 16px;
+    line-height: 35px;
+  }
+
+  .image-social{
+    height: 22px;
+  }
+
+  #feedback .iniciar-contato{
+    font-size: 16px;
+  }
+
+  #social-media .social-media{
+    font-size: 24px;
+  }
+
+  .container .button{
+    border-radius: 9px;
+    width: 205px;
+    height: 35px;
+    font-size: 14px;
+  }
+
+  .botao{
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  #feedback{
+    padding: 50px 0;
+  }
+
+  #feedback .title-name{
+    font-size: 18px;
+    line-height: 15px;
+  }
+
+}
+
+@media screen and (max-width: 576px){
+  #feedback .block{
+    margin-bottom: 50px;
+  }
+
+  #service .container{
+    padding: 0;
+  }
+
+  .subtitle-phone{
+    font-size: 14px;
+  }
+
+  #feedback .subtitle{
+    font-size: 17px;
+    line-height: 17px;
+  }
 }

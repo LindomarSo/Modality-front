@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'GothanBold';
+  src: url("../../../assets/Gotham-Font/Gotham-Bold.otf") format('opentype');
+}
+
+@font-face {
+  font-family: 'GothanBook';
+  src: url("../../../assets/Gotham-Font/GothamBook.ttf") format('truetype');
+}
+
 .block{
   margin-bottom: 100px;
 }
@@ -36,4 +46,41 @@
 
 .container .purple{
   color: #5A1286 !important;
+}
+
+/* MAX WIDTH */
+
+@media screen and (max-width: 768px){
+  .title{
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .subtitle{
+    font-size: 20px;
+    line-height: 18px;
+  }
+
+  .container .button{
+    border-radius: 9px;
+    width: 205px;
+    height: 35px;
+    font-size: 14px;
+  }
+
+}
+
+@media screen and (max-width: 576px){
+  .block{
+    margin-bottom: 50px;
+  }
+
+  .subtitle{
+    font-size: 17px;
+    line-height: 17px;
+  }
+
+  #main .woman{
+    max-height: 273px;
+  }
 }
