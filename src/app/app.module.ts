@@ -21,6 +21,9 @@ import { AccountService } from './services/account.service';
 import { ModalityService } from './services/modality.service';
 import { JwtInterceptor } from './interceptor/jwt.interceptor';
 import { PaginationModule } from 'ngx-bootstrap/pagination';
+import { HomeComponent } from './components/modality/home/home.component';
+import { SobreComponent } from './components/modality/sobre/sobre.component';
+import { FeedbackComponent } from './components/modality/feedback/feedback.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +34,10 @@ import { PaginationModule } from 'ngx-bootstrap/pagination';
     UserComponent,
     DashboardComponent,
     FooterComponent,
-    LoginComponent
+    LoginComponent,
+    HomeComponent,
+    SobreComponent,
+    FeedbackComponent
   ],
   imports: [
     BrowserModule,
