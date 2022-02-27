@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'GothanBold';
-  src: url("../../../assets/Gotham-Font/Gotham-Bold.otf") format('opentype');
+  src: url("../../../../assets/Gotham-Font/Gotham-Bold.otf") format('opentype');
 }
 
 @font-face {
   font-family: 'GothanBook';
-  src: url("../../../assets/Gotham-Font/GothamBook.ttf") format('truetype');
+  src: url("../../../../assets/Gotham-Font/GothamBook.ttf") format('truetype');
 }
 
 .block{
