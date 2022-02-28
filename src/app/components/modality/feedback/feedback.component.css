@@ -221,12 +221,12 @@ i{
     padding: 0;
   }
 
-  .subtitle-phone{
-    font-size: 14px;
-  }
-
   #feedback .subtitle{
     font-size: 17px;
     line-height: 17px;
+  }
+
+  #feedback .subtitle-phone{
+    font-size: 14px;
   }
 }
